@@ -14,7 +14,7 @@ def get_token():
     return response.payload.data.decode("UTF-8")
 
 
-def main(request):
+def canvas(request):
 
     environment = {
         'tempLocation': 'gs://canvas-lms-extracts/temp',

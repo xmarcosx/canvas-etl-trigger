@@ -24,7 +24,7 @@ def canvas(request):
     parameters = {
         'endpoint': request.args.get('endpoint'),
         'start_date': request.args.get('start_date'),
-        'base_url': 'https://framinghamk12.instructure.com',
+        'base_url': 'https://coolschool.instructure.com',
         'token': get_token()
     }
 
